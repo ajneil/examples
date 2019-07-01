@@ -8,6 +8,9 @@ var i = 0;
 function init() {
   arrayOfdataPoints = buildPoints(dataPoints);
   draw();
+  setTimeout(function () {
+    renderGraph();
+  }, 2000)
 }
 
 
